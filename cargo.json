@@ -1,0 +1,202 @@
+[
+    {
+        "AddedAt": "2020-12-07T10:47:47.223Z",
+        "AuctionId": null,
+        "Boards": [
+            {
+                "AuctionBetPublicationRestriction": 0,
+                "BoardId": "a0a0a0a0a0a0a0a0a0a0a0a0",
+                "IsCommonBoard": true,
+                "IsPublished": true,
+                "IsReservationEnabled": false,
+                "IsTestingBoard": false,
+                "PublicationOption": 0,
+                "PublicationTime": "2020-12-07T10:47:47.223Z"
+            }
+        ],
+        "CanBeDeleted": true,
+        "CanBeEdited": true,
+        "CanBeRenewed": true,
+        "CanBeRestored": false,
+        "Cargo": {
+            "ADR": 0,
+            "BeltCount": 0,
+            "CargoType": "\u043e\u043a\u043d\u043e",
+            "CargoTypeId": 59,
+            "DogruzType": 2,
+            "PackType": 0,
+            "PalletCount": 0,
+            "SborGruz": false,
+            "Size": {
+                "Diameter": 0.0,
+                "Height": 0.5,
+                "HeightHighlight": false,
+                "Length": 1.0,
+                "LengthHighlight": false,
+                "Width": 0.5,
+                "WidthHighlight": false
+            },
+            "Volume": 0.0,
+            "Weight": 0.1
+        },
+        "ContactId1": 0,
+        "ContactId2": null,
+        "DateType": 0,
+        "Deal": {
+            "DealType": 0,
+            "FixedRates": []
+        },
+        "DeleteRestriction": 0,
+        "DepartmentId": 1616324,
+        "Distance": 2141,
+        "DistanceType": 0,
+        "EditRestriction": 0,
+        "ExtraPoints": [],
+        "Ferries": false,
+        "FirmId": 2069354,
+        "FirstDate": "2020-12-07T00:00:00Z",
+        "HasPermissionsToLoad": true,
+        "Id": "b69781da-bcf9-44ad-8b53-30b504c7f8bc",
+        "InsuredMinTariff": 0.0,
+        "IsPassThroughCopy": false,
+        "IsUnpublished": false,
+        "Krugoreis": false,
+        "LastDate": "2020-12-07T00:00:00Z",
+        "LoadFiles": [],
+        "LoadNumber": "TEO3375",
+        "Loading": {
+            "CityId": 220,
+            "EndTime": null,
+            "IsRoundTheClock": false,
+            "LargeCities": [],
+            "LargeCitiesWithDistance": [],
+            "Latitude": null,
+            "Longitude": null,
+            "StartTime": null,
+            "Street": "",
+            "TimeEnd": null,
+            "TimeStart": null
+        },
+        "Note": "\u0413\u0440\u0443\u0437: \u043e\u043a\u043d\u043e \u043f\u043b\u0430\u0442\u0438\u043a\u043e\u0432\u043e\u0435. \u0413\u0440\u0443\u0437\u0438\u043c \u0431\u044b\u0441\u0442\u0440\u043e, \u043f\u043b\u0430\u0442\u0438\u043c \u0432 \u0434\u0435\u043d\u044c \u0432\u044b\u0433\u0440\u0443\u0437\u043a\u0438. \u0417\u0432\u043e\u043d\u0438\u0442\u0435 \u0431\u044b\u0441\u0442\u0440\u0435\u0435... \u041a\u0442\u043e \u043f\u0435\u0440\u0432\u044b\u0439 \u043a\u0438\u043d\u0435\u0442 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b - \u0441\u0440\u0430\u0437\u0443 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u043c\u0441\u044f. \u0413\u041e\u0420\u042f\u0427\u0418\u0419 \u041f\u0418\u0420\u041e\u0416\u041e\u041a!",
+        "NotificationStatus": 0,
+        "OfferCount": 0,
+        "ParentId": null,
+        "PassThroughInfo": null,
+        "Payment": {
+            "AcceptPaymentTypes": 0,
+            "CurrencyId": 1,
+            "DirectContract": true,
+            "FixedRate": true,
+            "HideResponses": true,
+            "InFuel": false,
+            "MoneyType": 22,
+            "OnUnloading": true,
+            "PayDays": 0,
+            "PayDaysEnabled": false,
+            "PrepayPercent": 0,
+            "PrepayPercentEnabled": false,
+            "RateSum": 20000.0,
+            "SumWithNDS": 0.0,
+            "SumWithoutNDS": 0.0,
+            "Torg": true
+        },
+        "PeriodicityId": 0,
+        "PlatonRoadsLength": 1400,
+        "PriorityView": null,
+        "RenewRestriction": "",
+        "ResponseCount": 0,
+        "RestoreRestriction": 0,
+        "SmsEnabled": false,
+        "Stealth": null,
+        "TollRoadsLength": 123,
+        "Transport": {
+            "CMR": false,
+            "CarType": 91,
+            "Koniki": false,
+            "LoadingLogicalOperator": "OR",
+            "LoadingType": 4,
+            "Pnevmohod": false,
+            "SanPassport": false,
+            "Stsepka": false,
+            "T1": false,
+            "TIR": false,
+            "TemperatureFrom": null,
+            "TemperatureTo": null,
+            "TrucksQuantity": 1,
+            "UnloadingLogicalOperator": "OR",
+            "UnloadingType": 4
+        },
+        "TravelTime": "1.09:45:00",
+        "TrueCurrencyId": 0,
+        "TruePrice": 0,
+        "UnloadFirstDate": null,
+        "UnloadLastDate": null,
+        "Unloading": {
+            "CityId": 1120,
+            "EndTime": null,
+            "IsRoundTheClock": false,
+            "LargeCities": [
+                2298,
+                2293,
+                2271,
+                2279,
+                2316,
+                2311,
+                10504,
+                2305,
+                2277,
+                2320
+            ],
+            "LargeCitiesWithDistance": [
+                {
+                    "CityId": 2298,
+                    "Distance": 230.0
+                },
+                {
+                    "CityId": 2293,
+                    "Distance": 187.0
+                },
+                {
+                    "CityId": 2271,
+                    "Distance": 51.0
+                },
+                {
+                    "CityId": 2279,
+                    "Distance": 97.0
+                },
+                {
+                    "CityId": 2316,
+                    "Distance": 236.0
+                },
+                {
+                    "CityId": 2311,
+                    "Distance": 253.0
+                },
+                {
+                    "CityId": 10504,
+                    "Distance": 113.0
+                },
+                {
+                    "CityId": 2305,
+                    "Distance": 153.0
+                },
+                {
+                    "CityId": 2277,
+                    "Distance": 103.0
+                },
+                {
+                    "CityId": 2320,
+                    "Distance": 280.0
+                }
+            ],
+            "Latitude": null,
+            "Longitude": null,
+            "StartTime": null,
+            "Street": "",
+            "TimeEnd": null,
+            "TimeStart": null
+        },
+        "UpdatedAt": "2020-12-07T10:47:47.223Z",
+        "Zimnik": false
+    }
+]
