@@ -1,13 +1,28 @@
-# from geopy import distance
+import json
 
-# p1 = (53.202778, 50.140833)
-# p2 = (54.1966781, 37.6178285)
+with open('city.json', 'r') as file:
+    load_js = json.load(file)
+    bad_keys = (' х ', 'МКАД', ' * ')
+    good_city = []
 
-# print(distance.geodesic(p1, p2).km)
+    key1 = []
+    key2 = []
+    key3 = []
 
-t = ' * '
-t1 = 'Its texfkapofskzxl;vjwiog we pfjvsmvgkljeklgfsdb eh '
-t2 = 'sfkl jasglakjg odaklfhnbdaofbklhndkfjg * lsdkfjslkgnd,mfngdkjhg'
 
-print(t in t1)
-print(t in t2)
+    for city in load_js:  # пробегаемся проверкой по каждому городу в общ. списке
+    #if city['CountryId'] in good_country: # проверяем принадлежность к нужной стране
+        
+        for bad_key in bad_keys:  # проверяем отсутствие лишних ключей в фразах
+            if bad_key in city['CityName']:
+                print('Пропущен город: {}'.format(city['CityName']))
+                break
+
+        else:
+            # чистый город записываем в отд. список
+            good_city.append(city)
+
+    else:
+        print(f'\nВсего очищено: {len(load_js) - len(good_city)}')
+        print(len(load_js), len(good_city))
+
